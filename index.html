@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fabella Terry — GRC + IAM</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #0a0820;
@@ -264,6 +263,10 @@ section { padding: 6rem 3rem; max-width: 1400px; margin: 0 auto; }
 .lab-badge.aws { color: var(--cyan); border: 1px solid rgba(103,232,249,0.3); background: rgba(103,232,249,0.05); }
 .lab-badge.exec { color: var(--rose); border: 1px solid rgba(249,168,212,0.3); background: rgba(249,168,212,0.05); }
 .lab-badge.policy { color: var(--emerald); border: 1px solid rgba(110,231,183,0.3); background: rgba(110,231,183,0.05); }
+.lab-card-link { display: block; text-decoration: none; color: inherit; border-radius: 4px; }
+.lab-github-tag { display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border-soft); width: 100%; font-family: 'JetBrains Mono', monospace; font-size: 0.67rem; color: var(--text-faint); letter-spacing: 0.08em; transition: color 0.2s ease; }
+.lab-card-link:hover .lab-github-tag { color: var(--violet); }
+
 .lab-title {
   font-family: 'Fraunces', serif;
   font-size: 1.3rem; font-weight: 500;
@@ -546,7 +549,7 @@ footer .d { color: var(--border); }
   <div class="labs-grid">
 
     <!-- LAB 01 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/iot-tls-security-hydroficient" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 01</span>
         <span class="lab-badge ext">Externship</span>
@@ -563,10 +566,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">MQTT</span>
         <span class="stack-tag">IoT Security</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 02 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/iot-tls-security-hydroficient" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 02</span>
         <span class="lab-badge ext">Externship</span>
@@ -584,10 +587,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">Traffic Capture</span>
         <span class="stack-tag">QoS Analysis</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 03 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/iot-tls-security-hydroficient" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 03</span>
         <span class="lab-badge exec">Executive Report</span>
@@ -605,10 +608,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">Executive Reporting</span>
         <span class="stack-tag">Load Testing</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 04 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/iot-tls-security-hydroficient" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 04</span>
         <span class="lab-badge ext">Externship</span>
@@ -627,10 +630,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">OpenSSL</span>
         <span class="stack-tag">Certificate Validation</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 05 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/iot-tls-security-hydroficient" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 05</span>
         <span class="lab-badge exec">Executive Report</span>
@@ -649,10 +652,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">IEC 62443</span>
         <span class="stack-tag">AWS IoT Core</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 06 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/iot-tls-security-hydroficient" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 06</span>
         <span class="lab-badge policy">Policy</span>
@@ -671,10 +674,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">Certificate Mgmt</span>
         <span class="stack-tag">CRL</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 07 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/nist-ac6-gap-analysis" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 07</span>
         <span class="lab-badge aws">AWS Project</span>
@@ -692,10 +695,10 @@ footer .d { color: var(--border); }
         <span class="stack-tag">AC-6</span>
         <span class="stack-tag">Risk Assessment</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
 
     <!-- LAB 08 -->
-    <div class="lab-card">
+    <a class="lab-card-link" href="https://github.com/FabCloudTech/cloudtrail-secrets-monitoring" target="_blank" rel="noopener noreferrer"><div class="lab-card">
       <div class="lab-meta">
         <span class="lab-num">// 08</span>
         <span class="lab-badge aws">AWS Project</span>
@@ -714,7 +717,7 @@ footer .d { color: var(--border); }
         <span class="stack-tag">SNS</span>
         <span class="stack-tag">Detective Controls</span>
       </div>
-    </div>
+    <div class="lab-github-tag">↗ view on github</div></div></a>
   </div>
 </section>
 
@@ -851,5 +854,6 @@ footer .d { color: var(--border); }
   <span class="d">// </span>fabcloudtech.github.io <span class="d">//</span> built &amp; maintained <span class="d">//</span> 2026
 </footer>
 
-</body>
-</html>
+
+
+</body></html>
